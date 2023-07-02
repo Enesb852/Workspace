@@ -14,5 +14,8 @@ int main()
     
     cout << v1.size() << endl;
 
+    for(int sayac=0; sayac < 2; sayac++)
+        cout << v1[sayac] << " ";
+
     return 0;
 }
