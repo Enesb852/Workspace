@@ -9,5 +9,10 @@ int main()
 
     cout << v5.back() << endl; // vektörün son elemanına bu şekilde ulaşabiliriz.
 
+    if(v5.empty())
+        cout << "vector is empty." << endl; 
+    else
+        cout << "vector is not empty" << endl;
+
     return 0;
 }
