@@ -2,7 +2,7 @@
 
 using namespace std;
 
-struct human
+struct person
 {
     string name;
     string city;
@@ -11,14 +11,14 @@ struct human
 
 int main()
 {
-    human propert;
-    propert.name = "Enes";
-    propert.city = "Hatay";
-    propert.age = 17;
+    person properties;
+    properties.name = "Enes";
+    properties.city = "Hatay";
+    properties.age = 17;
 
-    cout << propert.name << endl;
-    cout << propert.city << endl;
-    cout << propert.age << endl;
+    cout << properties.name << endl;
+    cout << properties.city << endl;
+    cout << properties.age << endl;
     
     return 0;
 }
