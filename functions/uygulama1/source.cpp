@@ -8,11 +8,6 @@ void karesiniHesapla(int sayi)
     cout << "Sayinin karesi: " << sayi;
 }
 
-void PavelGames()
-{
-    cout << "merhaba genclik :)";
-}
-
 int main()
 {
     int value;
@@ -22,8 +17,6 @@ int main()
     karesiniHesapla(value);
 
     cout<<endl;
-
-    PavelGames();
     
     return 0;
 }
