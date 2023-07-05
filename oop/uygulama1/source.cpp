@@ -32,7 +32,7 @@ int main()
     n1.ekranaYaz();
     
     n2->degerAta(7,4);
-    n2->ekranaYaz(); // n2 pointer'ı üzerinden n1 nesnesinin değerleri ekrana yazdırılıyor
+    n2->ekranaYaz();
 
     if(n1.isOrigin())
         cout << "Baslangic noktasinda";
