@@ -25,12 +25,18 @@ class Nokta
 int main()
 {
     Nokta n1;
+    Nokta* n2;
+    n2=new Nokta();
+    
     n1.degerAta(2,2);
-
     n1.ekranaYaz();
+    
+    n2->degerAta(7,4);
+    n2->ekranaYaz(); // n2 pointer'ı üzerinden n1 nesnesinin değerleri ekrana yazdırılıyor
 
     if(n1.isOrigin())
         cout << "Baslangic noktasinda";
     
+    delete n2;
     return 0;
 }
