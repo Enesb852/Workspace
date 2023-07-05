@@ -8,7 +8,7 @@ int main()
     cout << "Dizi boyutunu belirleyiniz: ";
     cin>>n;
 
-    int* dizi =  new int[n]; // Dinamik bir dizi oluşturduk
+    int* dizi = new int[n]; // Dinamik bir dizi oluşturduk
     
     for(int sayac = 0; sayac < n; sayac++)
     {
